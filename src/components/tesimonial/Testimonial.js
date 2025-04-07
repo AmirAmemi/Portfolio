@@ -38,10 +38,10 @@ const Testimonial = () => {
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrentImage(prevImage => {
-        const nextIndex = (images.indexOf(prevImage) + 1) % images.length;
-        return images[nextIndex];
-      });
+      // setCurrentImage(prevImage => {
+      //   // const nextIndex = (images.indexOf(prevImage) + 1) % images.length;
+      //   // return images[nextIndex];
+      // });
     }, interval);
 
     return () => clearInterval(timer); // Cleanup interval on component unmount
