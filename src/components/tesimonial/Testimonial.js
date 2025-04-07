@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import { FaLinkedin, FaGlobe } from "react-icons/fa"; // Import LinkedIn and Globe icons
 import Title from '../layouts/Title';
-import { testimonialOne, DSPYTHON,DEPYTHON, DEAWS, quote, AWS, DEDATACAMP } from "../../assets"; // Update if needed
+import { DSPYTHON,DEPYTHON, DEAWS, quote, AWS, DEDATACAMP } from "../../assets"; // Update if needed
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -31,9 +31,9 @@ function SamplePrevArrow(props) {
 
 const Testimonial = () => {
   const [dotActive, setDotActive] = useState(0);
-  const [currentImage, setCurrentImage] = useState(testimonialOne);
+  // const [currentImage, setCurrentImage] = useState(testimonialOne);
 
-  const images = [testimonialOne]; // Array of images
+  // const images = [testimonialOne]; // Array of images
   const interval = 2500; // Interval time in milliseconds
 
   useEffect(() => {
