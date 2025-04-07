@@ -22,8 +22,7 @@
 // import lambdaLogo from "../assets/images/lambda.png";
 // import terraformLogo from "../assets/images/terraform.png";
 // import dockerLogo from "../assets/images/docker.png";
-// import ghayth1 from "../assets/images/ghayth1.jpeg";
-// import ghayth2 from "../assets/images/ghayth2.jpeg";
+
 
 // // Features Data
 // export const featuresData = [

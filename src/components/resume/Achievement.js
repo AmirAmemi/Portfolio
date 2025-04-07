@@ -19,25 +19,20 @@ import {
   MatplotLogo,
   PandasLogo,
   PythonLogo,
-  laravelLogo, 
-  angularLogo, 
-  nodejsLogo, 
-  expressLogo, 
-  mongodbLogo, 
+
   htmlLogo, 
   cssLogo, 
   jsLogo, 
   codeigniterLogo, 
   mysqlLogo, 
-  figmaLogo,
+
   PyttLogo
   
 } from "../../assets";
 import Title from '../layouts/Title';
 import { work1 } from '../../assets';
 import { work2 } from '../../assets';
-import { work3 } from '../../assets';
-import { work4 } from '../../assets';
+
 import { work5 } from '../../assets';
 import { work6 } from '../../assets';
 import { work7 } from '../../assets';

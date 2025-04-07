@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaGithub, FaEnvelope, FaLinkedinIn, FaFileDownload, FaBell } from "react-icons/fa";
-import ghayth0 from '../../assets/images/ghayth0.jpg'; // Ensure this path is correct
+
 
 const Media = () => {
   const [showNotification, setShowNotification] = useState(false);
