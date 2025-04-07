@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.04eb140c.css",
-    "main.js": "/static/js/main.98964ad5.js",
+    "main.js": "/static/js/main.32e742fb.js",
     "static/media/contactImg.jpg": "/static/media/contactImg.ea841ed19375057bf14e.jpg",
     "static/media/bannerImg.png": "/static/media/bannerImg.2038c55f0031404569bd.png",
     "static/media/dubai2.jpeg": "/static/media/dubai2.284adf92ba0f965d6ac1.jpeg",
@@ -56,17 +56,17 @@
     "static/media/work6.jpeg": "/static/media/work6.aa5f99d5814f1ed9d89e.jpeg",
     "static/media/numpy.png": "/static/media/numpy.988d98098ade45f04183.png",
     "static/media/work3.JPG": "/static/media/work3.757026415a5f4f916f93.JPG",
-    "static/media/logo.png": "/static/media/logo.9c68545e7a8e2056ad3b.png",
+    "static/media/logo.png": "/static/media/logo.387f6e9f6f8ff7991d45.png",
     "static/media/Brsoup.png": "/static/media/Brsoup.747715cd3c33dea77667.png",
     "static/media/laravel.png": "/static/media/laravel.82400e34124cc452c23c.png",
     "static/media/codeigniter.png": "/static/media/codeigniter.7dee10f9c7c79086c51d.png",
     "static/media/json.jpg": "/static/media/json.050c47389bd70b62bf01.jpg",
     "index.html": "/index.html",
     "main.04eb140c.css.map": "/static/css/main.04eb140c.css.map",
-    "main.98964ad5.js.map": "/static/js/main.98964ad5.js.map"
+    "main.32e742fb.js.map": "/static/js/main.32e742fb.js.map"
   },
   "entrypoints": [
     "static/css/main.04eb140c.css",
-    "static/js/main.98964ad5.js"
+    "static/js/main.32e742fb.js"
   ]
 }
