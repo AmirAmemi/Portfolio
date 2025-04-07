@@ -33,7 +33,7 @@ const Testimonial = () => {
   const [dotActive, setDotActive] = useState(0);
   const [currentImage, setCurrentImage] = useState(testimonialOne);
 
-  const images = [testimonialOne, dubai2, dubai3]; // Array of images
+  const images = [testimonialOne]; // Array of images
   const interval = 2500; // Interval time in milliseconds
 
   useEffect(() => {

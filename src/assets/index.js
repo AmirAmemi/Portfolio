@@ -13,6 +13,15 @@ import projectNine from "./images/projects/projectNine.jpg";
 import testimonialOne from "./images/testmonial/testimonialOne.jpg";
 import testimonialTwo from "./images/testmonial/testimonialTwo.jpg";
 import testimonialThree from "./images/testmonial/testimonialThree.jpg";
+
+
+import AWS from "./images/testmonial/AWS.png";
+import DEDATACAMP from "./images/testmonial/DEDATACAMP.jpeg";
+import DSPYTHON from "./images/testmonial/DSPYTHON.png";
+import DEPYTHON from "./images/testmonial/DEPYTHON.png";
+import DEAWS from "./images/testmonial/DEAWS.png";
+
+
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.jpg";
 import angularLogo from "./images/angular.png";
@@ -63,6 +72,11 @@ import PostgreSQL from "./images/Postgresql.png";
 import ETL from "./images/ETL.png";
 
 export {
+  DSPYTHON,
+  DEPYTHON, 
+  DEAWS,  
+  AWS, 
+  DEDATACAMP,
   ETL,
   PostgreSQL,
   PyttLogo,
