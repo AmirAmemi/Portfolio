@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.04eb140c.css",
-    "main.js": "/static/js/main.a773a9dc.js",
+    "main.js": "/static/js/main.b52c708c.js",
     "static/media/contactImg.jpg": "/static/media/contactImg.ea841ed19375057bf14e.jpg",
     "static/media/bannerImg.png": "/static/media/bannerImg.2038c55f0031404569bd.png",
     "static/media/dubai2.jpeg": "/static/media/dubai2.284adf92ba0f965d6ac1.jpeg",
@@ -63,10 +63,10 @@
     "static/media/json.jpg": "/static/media/json.050c47389bd70b62bf01.jpg",
     "index.html": "/index.html",
     "main.04eb140c.css.map": "/static/css/main.04eb140c.css.map",
-    "main.a773a9dc.js.map": "/static/js/main.a773a9dc.js.map"
+    "main.b52c708c.js.map": "/static/js/main.b52c708c.js.map"
   },
   "entrypoints": [
     "static/css/main.04eb140c.css",
-    "static/js/main.a773a9dc.js"
+    "static/js/main.b52c708c.js"
   ]
 }
