@@ -7,7 +7,7 @@ const Footer = () => {
   const handleResumeDownload = () => {
     const link = document.createElement('a');
     link.href = '/assets/Amir Amemi Resume.pdf'; // Replace with your actual resume path
-    link.download = 'Resume-of-Amir Amemi.pdf'; // The downloaded file will be named "Resume-of-Ghayth-Khezami.pdf"
+    link.download = 'Resume-of-Amir Amemi.pdf'; // The downloaded file will be named "Resume-of-Amir-Amemi.pdf"
     link.click();
   };
 
@@ -64,7 +64,7 @@ const Footer = () => {
           {/* Hire Me Button */}
           <button
             className="px-4 py-2 bg-designColor text-white rounded-md hover:bg-designColorDark transition duration-300 flex items-center gap-2"
-            onClick={() => window.location.href = 'mailto:ghaythkhezami2002@gmail.com'}
+            onClick={() => window.location.href = 'mailto:amir@amemi.de'}
           >
             <FaEnvelope className="text-xl" />
             <span className="text-base">Hire Me</span>
