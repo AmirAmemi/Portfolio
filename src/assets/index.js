@@ -24,7 +24,7 @@ import cssLogo from "./images/css.png";         // Ensure this file exists
 import jsLogo from "./images/js.png";           // Ensure this file exists
 import codeigniterLogo from "./images/codeigniter.png"; // Ensure this file exists
 import mysqlLogo from "./images/mysql.png";     // Ensure this file exists
-import figmaLogo from "./images/figma.png";     // Ensure this file exists
+     // Ensure this file exists
 import work1 from "./images/work1.png";     // Ensure this file exists
 import work2 from "./images/work2.jpg";     
 import work3 from "./images/work3.JPG";  
@@ -81,13 +81,13 @@ export {
 
   quote,
   contactImg,
-
+  work3,
   mongodbLogo,
   htmlLogo,
   cssLogo,
   jsLogo,
   codeigniterLogo,
   mysqlLogo,
-  figmaLogo,
+  
   work1,work2,work4,work5,work6,work7,SonarQube
 };
