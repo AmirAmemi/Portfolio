@@ -168,7 +168,7 @@
 
 // export default Contact
 <form 
-  action="https://formspree.io/f/YOUR_FORMSPREE_ID" 
+  action="https://formspree.io/f/xeoavjae" 
   method="POST"
   className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5"
 >
