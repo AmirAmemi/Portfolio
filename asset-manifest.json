@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ca444d1b.css",
-    "main.js": "/static/js/main.1369298b.js",
+    "main.js": "/static/js/main.25f15331.js",
     "static/media/contactImg.jpg": "/static/media/contactImg.ea841ed19375057bf14e.jpg",
     "static/media/bannerImg.png": "/static/media/bannerImg.2038c55f0031404569bd.png",
     "static/media/DEAWS.png": "/static/media/DEAWS.06a62aacd445c08db3cd.png",
@@ -24,11 +24,11 @@
     "static/media/DEAP.png": "/static/media/DEAP.569c8fa1c4405681f76c.png",
     "static/media/AWS.png": "/static/media/AWS.1642adf24248c1101084.png",
     "static/media/DEDATACAMP.jpeg": "/static/media/DEDATACAMP.2ef936a57ed0b6783e79.jpeg",
-    "static/media/logo.png": "/static/media/logo.27a6a17e47af306b3d1a.png",
     "static/media/SonarQube.png": "/static/media/SonarQube.85eee0cc81e3b0f52597.png",
     "static/media/excel.png": "/static/media/excel.f8cc78fe65cad12c9aa6.png",
     "static/media/work5.png": "/static/media/work5.f9ef23f3154aadb81258.png",
     "static/media/html.png": "/static/media/html.b39a12ac47cb0bc32b3f.png",
+    "static/media/logo.png": "/static/media/logo.7ad9e604dcf337f2ca7f.png",
     "static/media/mysql.png": "/static/media/mysql.188f859bdbabf1b62932.png",
     "static/media/NLTK.png": "/static/media/NLTK.86f8abc4aa0c0f5c7098.png",
     "static/media/ETL.png": "/static/media/ETL.91a36853df718f8226af.png",
@@ -41,10 +41,10 @@
     "static/media/json.jpg": "/static/media/json.050c47389bd70b62bf01.jpg",
     "index.html": "/index.html",
     "main.ca444d1b.css.map": "/static/css/main.ca444d1b.css.map",
-    "main.1369298b.js.map": "/static/js/main.1369298b.js.map"
+    "main.25f15331.js.map": "/static/js/main.25f15331.js.map"
   },
   "entrypoints": [
     "static/css/main.ca444d1b.css",
-    "static/js/main.1369298b.js"
+    "static/js/main.25f15331.js"
   ]
 }
