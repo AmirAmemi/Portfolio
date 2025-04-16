@@ -26,11 +26,12 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        I am a recent Data Science Master’s graduate with a Bachelor’s degree in Applied Mathematics, both earned from the University of Monastir. 
-        I also broadened my academic experience through an exchange program in Computer Science at the University of Schmalkalden in Germany.
-        My academic journey has built a strong foundation in data engineering, machine learning, statistical modeling, and software development. 
-        I am passionate about turning data into actionable insights and developing efficient, scalable solutions. 
-        My areas of interest include Data Engineering, Data Science, and Software Development, and I am eager to contribute to dynamic, innovation-driven teams.
+        As a recent graduate with a Master's in Data Science and a Bachelor's in Applied Mathematics from the University of Monastir, 
+        I have established a robust academic foundation in data engineering, machine learning, and software development. 
+        During my exchange semester in Computer Science at Hochschule Schmalkalden - University of Applied Sciences in Germany, 
+        I expanded my technical skills and gained international experience. My research interests lie in the design of scalable data pipelines and the transformation of complex 
+        data into meaningful insights. I am currently seeking opportunities to contribute to innovative teams that are at the forefront of Data Engineering, AI, 
+        and Software Development.
 
         </p>
       </div>

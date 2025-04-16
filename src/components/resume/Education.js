@@ -18,19 +18,19 @@ const Education = () => {
         <div className="mt-6 lgl:mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Exchange Semester in Computer Science"
-            subTitle="University of Schmalkalden, Germany"
+            subTitle="Hochschule Schmalkalden - University of Applied Sciences, Germany"
             result="2024 - 2025"
             des="Participated in an international exchange program focusing on software development, algorithms, and computer systems. This experience enhanced my programming skills and exposed me to diverse learning environments and collaborative tech project."
           />
           <ResumeCard
             title="Master’s Degree in Data Science"
-            subTitle="University of Monastir, Tunisia "
+            subTitle="Faculty of Science of Monastir, Tunisia "
             result="2022 - 2024"
             des="Focused on advanced topics in machine learning, big data analytics, statistical modeling, and data engineering. Gained hands-on experience with tools such as Python, SQL, and cloud technologies. Completed projects involving predictive modeling, data visualization, and real-world data problem solving."
           />
           <ResumeCard
             title="Bachelor’s Degree in Applied Mathematics "
-            subTitle="University of Monastir, Tunisia"
+            subTitle="Faculty of Science of Monastir, Tunisia"
             result="2018 - 2022"
             des="Built a strong foundation in mathematics, statistics, and computational methods. Studied subjects like linear algebra, probability, optimization, and numerical analysis, which laid the groundwork for problem-solving in data-intensive environments."
           />
