@@ -6,6 +6,7 @@ import bannerImg from "./images/bannerImg.png";
 
 import AWS from "./images/testmonial/AWS.png";
 import DEDATACAMP from "./images/testmonial/DEDATACAMP.jpeg";
+import DEDATACAMP1 from "./images/testmonial/DEDATACAMP1.png";
 import DSPYTHON from "./images/testmonial/DSPYTHON.png";
 import DEPYTHON from "./images/testmonial/DEPYTHON.png";
 import DEAWS from "./images/testmonial/DEAWS.png";
@@ -53,6 +54,7 @@ import PostgreSQL from "./images/Postgresql.png";
 import ETL from "./images/ETL.png";
 
 export {
+  DEDATACAMP1,
   DSPYTHON,
   DEPYTHON, 
   DEAWS,  

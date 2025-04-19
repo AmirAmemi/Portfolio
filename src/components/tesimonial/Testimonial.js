@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import { FaLinkedin, FaGlobe } from "react-icons/fa"; // Import LinkedIn and Globe icons
 import Title from '../layouts/Title';
-import { DSPYTHON,DEPYTHON, DEAWS, quote, AWS, DEDATACAMP } from "../../assets"; // Update if needed
+import { DSPYTHON,DEPYTHON, DEAWS, quote, AWS, DEDATACAMP,DEDATACAMP1 } from "../../assets"; // Update if needed
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -169,6 +169,64 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
+
+          {/* Certification Data Engineer in Python */}
+          <div className="w-full">
+            <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+              <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
+                <img
+                  className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
+                  src={DEDATACAMP1} // Dynamic image
+                  alt="Testimonial"
+                />
+                <div className="w-full flex flex-col justify-end">
+                  <p className="text-xs uppercase text-designColor tracking-wide mb-2">
+                  DataCamp
+                  </p>
+                  <h3 className="text-2xl font-bold">
+                  Data Engineer in Python
+                  </h3>
+                  <p className="text-base tracking-wide text-gray-500">
+                   A career track focused on real-world data engineering tools and workflows.
+                  </p>
+                </div>
+              </div>
+              <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
+                <img className="w-20 lgl:w-32" src={quote} alt="quote" />
+                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
+                  <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
+                    <div className="flex items-center gap-4"> {/* Increased gap for larger icons */}
+                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
+                        Data Engineer in Python
+                      </h3>
+                      {/* LinkedIn icon with a link and larger size */}
+                      <a
+                        href="https://www.linkedin.com/posts/amemi-amir_data-engineer-in-python-activity-7319033111931949056-WTFu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC3q3tsBDcsEo6yyUNSAgIGyiAMk6zlCqy0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 hover:text-blue-700 text-3xl" // Adjusted size
+                      >
+                        <FaLinkedin />
+                      </a>
+                      {/* Web icon with a link and larger size */}
+                      <a
+                        href="https://www.datacamp.com/completed/statement-of-accomplishment/track/ec5addaf7ba092fa1934b92d2b5950802e6f50d2"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-500 hover:text-blue-700 text-3xl" // Adjusted size
+                      >
+                        <FaGlobe />
+                      </a>
+                    </div>
+                   
+                  </div>
+                  <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
+                  Earners of this certification have completed the Data Engineer in Python track on DataCamp, a 42-hour program focused on core data engineering skills. They demonstrated proficiency in Python programming, data importation from CSV, SQL, APIs, and web scraping, as well as data cleaning and transformation. The program also covered Git and version control, writing efficient and modular code, and orchestrating ETL/ELT data pipelines using Apache Airflow. Through hands-on exercises, earners gained practical experience in building and scheduling robust data workflows, enhancing both their theoretical knowledge and technical capabilities.                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Associate Data Engineer */}
           <div className="w-full">
             <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
