@@ -12,7 +12,7 @@ This portfolio serves as a personal website and includes the following sections:
 - **Projects**: A collection of my key projects, ranging from data engineering and data science to software development.
 - **Contact**: Information on how to get in touch with me for collaboration, job opportunities, or inquiries.
 
----
+--- 
 
 ## 💻 Projects
 
