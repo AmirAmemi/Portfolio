@@ -21,8 +21,7 @@ The portfolio includes the following projects:
 ```
 ├── Project1 - Data Engineering Projects (Data pipelines, Cloud, etc.)
 ├── Project2 - Data Science Projects (Machine Learning, Data Analysis)
-├── Project3 - Web Development (Personal Website, APIs, etc.)
-└── README.md
+└── Project3 - Web Development (Personal Website, APIs, etc.)
 ```
 
 Each section of the portfolio contains detailed descriptions, links to GitHub repositories, and demo projects showcasing my skills and experience.
