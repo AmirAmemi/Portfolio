@@ -12,29 +12,10 @@ This portfolio serves as a personal website and includes the following sections:
 - **Projects**: A collection of my key projects, ranging from data engineering and data science to software development.
 - **Contact**: Information on how to get in touch with me for collaboration, job opportunities, or inquiries.
 
---- 
 
-## 💻 Projects
-
-The portfolio includes the following projects:
-
-```
-├── Project1 - Data Engineering Projects (Data pipelines, Cloud, etc.)
-├── Project2 - Data Science Projects (Machine Learning, Data Analysis)
-└── Project3 - Web Development (Personal Website, APIs, etc.)
-```
 
 Each section of the portfolio contains detailed descriptions, links to GitHub repositories, and demo projects showcasing my skills and experience.
 
----
-
-## 🧰 Technologies Used
-
-- **Languages**: HTML, CSS, JavaScript, Python
-- **Web Framework**: Flask for backend, React for frontend
-- **Data Science/Engineering**: Python (Pandas, NumPy, Scikit-learn, TensorFlow)
-- **Databases**: SQL, MongoDB
-- **Cloud Platforms**: AWS, Google Cloud
 
 ---
 
