@@ -16,8 +16,8 @@ const Experience = () => {
         </div>
         <div className="mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Mandatory Internship"
-            subTitle="(February 2024 - July 2024)"
+            title="Data engineer Intern"
+            subTitle="(February 2024 - November 2024)"
             result="Smart Information Trade"
             des={
               <div>
@@ -42,8 +42,8 @@ const Experience = () => {
             logo="../../components/resume/Smart Trade Information.jpg" // Replace with the correct path to the Allence logo
           />
           <ResumeCard
-            title="Voluntary Internship"
-            subTitle="(June 2023 - September 2023)"
+            title="Data engineer Intern"
+            subTitle="(April 2023 - October 2023)"
             result="Digital Research & Technologies "
             des={
               <div>
