@@ -52,8 +52,11 @@ import SeabornLogo from "./images/seaborn.png";
 import PyttLogo from "./images/py3tts.png";
 import PostgreSQL from "./images/Postgresql.png";
 import ETL from "./images/ETL.png";
+import projectOne from "./images/ProjectOne.png"
+
 
 export {
+  projectOne,
   DEDATACAMP1,
   DSPYTHON,
   DEPYTHON, 
