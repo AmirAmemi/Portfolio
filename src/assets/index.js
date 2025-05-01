@@ -53,9 +53,11 @@ import PyttLogo from "./images/py3tts.png";
 import PostgreSQL from "./images/Postgresql.png";
 import ETL from "./images/ETL.png";
 import projectOne from "./images/ProjectOne.png"
+import SqlLogo from "./images/sqlLogo.jpeg"
 
 
 export {
+  SqlLogo,
   projectOne,
   DEDATACAMP1,
   DSPYTHON,
