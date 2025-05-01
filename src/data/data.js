@@ -13,12 +13,13 @@ import {FaLinkedin,FaGithub,FaDiscord} from "react-icons/fa";
   import discordapi from "../assets/images/DiscordApi.png";
   import linekdinapi from "../assets/images/LinedInApi.png";
   import tweepi from "../assets/images/tweepi.png";
+  import flight from "../assets/images/ProjectOne.png";
   
   // Features Data
   export const featuresData = [
     {
       id: 1,
-      icon: <MdFlight />,
+      icon: flight ,
       title: "Nouvelair Delay Watch ✈️",
       des: `Nouvelair Delay Watch is a fully automated system that fetches daily flight data for Nouvelair, cleans and analyzes delays, generates a beautiful custom report, and posts it automatically on Discord (and optionally LinkedIn or other platforms). Designed to deliver real-time insights about delays, worst flights, and delay distribution by hour and route.\n\n
   📥 Data Extraction: Fetch daily real-time flight data from the AviationStack API.\n
