@@ -4,16 +4,16 @@ import { MdFlight } from "react-icons/md";
 
 import pythonLogo from "../assets/images/python.png";
 
-import SqlLogo from "./images/sqlLogo.jpeg";
-import PostgreSQL from "./images/Postgresql.png";
-import PandasLogo from "./images/pandas.png";
-import Matplotlib from "./images/Matplotlib_icon.png";
-import Pillow from "./images/pillow.png";
-import requests from "./images/requests.png";
-import gitactions from "./images/gitactions.png";
-import discordapi from "./images/DiscordApi.png";
-import linekdinapi from "./images/LinedInApi.png";
-import tweepi from "./images/tweepi.png";
+import SqlLogo from "../assets/images/sqlLogo.jpeg";
+import PostgreSQL from "../assets/images/Postgresql.png";
+import PandasLogo from "../assets/images/pandas.png";
+import Matplotlib from "../assets/images/Matplotlib_icon.png";
+import Pillow from "../assets/images/pillow.png";
+import requests from "../assets/images/requests.png";
+import gitactions from "../assets/images/gitactions.png";
+import discordapi from "../assets/images/DiscordApi.png";
+import linekdinapi from "../assets/images/LinedInApi.png";
+import tweepi from "../assets/images/tweepi.png";
 
 
 
