@@ -23,7 +23,7 @@ export const featuresData = [
   {
     id: 1,
     icon: <MdFlight />, // Icon for plane
-    title: "Nouvelair Delay Watch",
+    title: "Nouvelair Delay Watch ✈️",
     des: "Nouvelair Delay Watch is a fully automated system that fetches daily flight data for Nouvelair, cleans and analyzes delays, generates a beautiful custom report, and posts it automatically on Discord (and optionally LinkedIn or other platforms).Designed to deliver real-time insights about delays, worst flights, and delay distribution by hour and route.",
     photos: [PostgreSQL,PandasLogo,Matplotlib,Pillow,requests,gitactions,discordapi,linekdinapi,tweepi],
     languages: [pythonLogo,SqlLogo],
