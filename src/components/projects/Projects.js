@@ -27,27 +27,10 @@ const Projects = () => {
 Designed to deliver real-time insights about delays, worst flights, and delay distribution by hour and route."
   src={projectOne}
   place="1st"
-  
+  linkedinLink="https://www.linkedin.com/posts/amemi-amir_dataengineering-python-etl-activity-7322892546186072064-lDqs?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC3q3tsBDcsEo6yyUNSAgIGyiAMk6zlCqy0"
+  githubLink="https://github.com/AmirAmemi/nouvelair-delay-watch"
 />
-    {/* LinkedIn icon with a link and larger size */}
-    <a
-    href="https://www.linkedin.com/posts/amemi-amir_dataengineering-python-etl-activity-7322892546186072064-lDqs?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC3q3tsBDcsEo6yyUNSAgIGyiAMk6zlCqy0"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-blue-500 hover:text-blue-700 text-3xl" // Adjusted size
-    >
-    <FaLinkedin />
-    </a>
-    {/* Web icon with a link and larger size */}
-    <a
-    href="https://github.com/AmirAmemi/nouvelair-delay-watch"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-blue-500 hover:text-blue-700 text-3xl" // Adjusted size
-    >
-    < FaGithub />
-    </a>
-
+   
       </div>
     </section>
   );

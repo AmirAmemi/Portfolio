@@ -1,18 +1,18 @@
+// ProjectsCard.jsx
 import React from 'react';
-import { FaTrophy, FaMedal, FaRegSmile } from "react-icons/fa"; // Import icons for trophies and medals
+import { FaTrophy, FaMedal, FaRegSmile, FaLinkedin, FaGlobe, FaGithub } from "react-icons/fa";
 import { MdFlight } from "react-icons/md";
 
-const ProjectsCard = ({ title, des, src, place }) => {
-  // Determine the icon based on the achievement place
+const ProjectsCard = ({ title, des, src, place, linkedinLink, githubLink, webLink }) => {
   const getIcon = () => {
     switch (place) {
       case '1st':
-        return <MdFlight className="text-yellow-500 text-2xl mr-2" />; // Gold trophy for 1st place
+        return <MdFlight className="text-yellow-500 text-2xl mr-2" />;
       case '2nd':
-        return <FaMedal className="text-gray-500 text-2xl mr-2" />; // Silver medal for 2nd place
+        return <FaMedal className="text-gray-500 text-2xl mr-2" />;
       case 'Finalist':
       default:
-        return <FaRegSmile className="text-blue-500 text-2xl mr-2" />; // Smile icon for finalists
+        return <FaRegSmile className="text-blue-500 text-2xl mr-2" />;
     }
   };
 
@@ -22,13 +22,13 @@ const ProjectsCard = ({ title, des, src, place }) => {
         <img
           className="w-full h-60 object-cover group-hover:scale-110 duration-300 cursor-pointer"
           src={src}
-          alt="src"
+          alt="Project visual"
         />
       </div>
       <div className="w-full mt-5 flex flex-col gap-6">
         <div>
           <div className="flex items-center">
-            {getIcon()} {/* Display the appropriate icon before the title */}
+            {getIcon()}
             <h3 className="text-base uppercase text-designColor font-normal">
               {title}
             </h3>
@@ -36,6 +36,30 @@ const ProjectsCard = ({ title, des, src, place }) => {
           <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
             {des}
           </p>
+        </div>
+
+        {/* Conditional display of icons */}
+        <div className="flex gap-4 mt-2">
+          {linkedinLink && (
+            <a
+              href={linkedinLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:text-blue-700 text-3xl"
+            >
+              <FaLinkedin />
+            </a>
+          )}
+          {githubLink && (
+            <a
+              href={githubLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:text-blue-700 text-3xl"
+            >
+              <FaGithub />
+            </a>
+          )}
         </div>
       </div>
     </div>
