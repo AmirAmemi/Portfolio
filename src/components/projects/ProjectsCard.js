@@ -1,9 +1,9 @@
 // ProjectsCard.jsx
 import React from 'react';
-import { FaTrophy, FaMedal, FaRegSmile, FaLinkedin, FaGlobe, FaGithub } from "react-icons/fa";
+import { FaTrophy, FaMedal, FaRegSmile, FaLinkedin, FaGlobe, FaGithub,FaDiscord} from "react-icons/fa";
 import { MdFlight } from "react-icons/md";
 
-const ProjectsCard = ({ title, des, src, place, linkedinLink, githubLink, webLink }) => {
+const ProjectsCard = ({ title, des, src, place, linkedinLink, githubLink, discordLink }) => {
   const getIcon = () => {
     switch (place) {
       case '1st':
@@ -58,6 +58,16 @@ const ProjectsCard = ({ title, des, src, place, linkedinLink, githubLink, webLin
               className="text-blue-500 hover:text-blue-700 text-3xl"
             >
               <FaGithub />
+            </a>
+          )}
+          {discordLink && (
+            <a
+              href={discordLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:text-blue-700 text-3xl"
+            >
+              <FaDiscord />
             </a>
           )}
         </div>

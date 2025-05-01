@@ -1,5 +1,7 @@
 import { FaMobile, FaServer, FaCode, FaCheckCircle, FaProjectDiagram, FaBullhorn } from "react-icons/fa";
-import { FaTrophy, FaMedal, FaRegSmile, FaLinkedin, FaGlobe, FaGithub } from "react-icons/fa";
+import { FaTrophy, FaMedal, FaRegSmile, FaLinkedin, FaGlobe, FaGithub,FaDiscord } from "react-icons/fa";
+
+
 import { MdFlight } from "react-icons/md";
 
 import pythonLogo from "../assets/images/python.png";
@@ -35,7 +37,11 @@ export const featuresData = [
         {
           icon: <FaGithub />,
           url: "https://github.com/AmirAmemi/nouvelair-delay-watch"
-        }
+        },
+        {
+            icon: <FaDiscord />,
+            url: "https://discord.gg/n2vmB4Yshk"
+          }
       ]
   }
 ];
