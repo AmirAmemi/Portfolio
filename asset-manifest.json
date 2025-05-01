@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ca444d1b.css",
-    "main.js": "/static/js/main.f1d10e29.js",
+    "main.js": "/static/js/main.c431a989.js",
     "static/media/contactImg.jpg": "/static/media/contactImg.ea841ed19375057bf14e.jpg",
     "static/media/bannerImg.png": "/static/media/bannerImg.2038c55f0031404569bd.png",
     "static/media/DEAWS.png": "/static/media/DEAWS.06a62aacd445c08db3cd.png",
@@ -19,6 +19,7 @@
     "static/media/work7.png": "/static/media/work7.29883af9a49a7649e018.png",
     "static/media/Postgresql.png": "/static/media/Postgresql.519a271ad6537a824c0c.png",
     "static/media/py3tts.png": "/static/media/py3tts.a929bc85a879d7e8d1f2.png",
+    "static/media/ProjectOne.png": "/static/media/ProjectOne.6307af9d2374549b6df2.png",
     "static/media/Qt.png": "/static/media/Qt.486f94a3906506b1c21d.png",
     "static/media/matplotlib.png": "/static/media/matplotlib.71fb8a7d166ff36e4059.png",
     "static/media/work2.jpg": "/static/media/work2.5d533b888e4d4a10c21d.jpg",
@@ -41,10 +42,10 @@
     "static/media/json.jpg": "/static/media/json.050c47389bd70b62bf01.jpg",
     "index.html": "/index.html",
     "main.ca444d1b.css.map": "/static/css/main.ca444d1b.css.map",
-    "main.f1d10e29.js.map": "/static/js/main.f1d10e29.js.map"
+    "main.c431a989.js.map": "/static/js/main.c431a989.js.map"
   },
   "entrypoints": [
     "static/css/main.ca444d1b.css",
-    "static/js/main.f1d10e29.js"
+    "static/js/main.c431a989.js"
   ]
 }
