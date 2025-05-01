@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { HiArrowRight } from "react-icons/hi";
 
-import { FaLinkedin, FaGlobe } from "react-icons/fa"; // if not already imported
-
-const Card = ({ item: { title, des, icon, photos, languages, links } }) => {
+const Card = ({ item }) => {
+  const { title, des, icon, photos, languages, links } = item;
   const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
 
   useEffect(() => {
@@ -36,9 +35,17 @@ const Card = ({ item: { title, des, icon, photos, languages, links } }) => {
             <h2 className="text-xl md:text-2xl font-titleFont font-bold text-gray-300 group-hover:text-black transition-colors duration-300 ease-in-out">
               {title}
             </h2>
-            <p className="base group-hover:hidden transition-opacity duration-300 ease-in-out">{des}</p>
 
-            {/* Social Links Section */}
+            {/* Render description with line breaks */}
+            <div className="group-hover:hidden transition-opacity duration-300 ease-in-out">
+              {des.split('\n').map((line, index) => (
+                <p key={index} className="text-sm text-gray-300 group-hover:text-black">
+                  {line}
+                </p>
+              ))}
+            </div>
+
+            {/* Links (LinkedIn, GitHub, etc.) */}
             {links && links.length > 0 && (
               <div className="flex gap-4 justify-center mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 {links.map((link, index) => (
@@ -55,41 +62,24 @@ const Card = ({ item: { title, des, icon, photos, languages, links } }) => {
               </div>
             )}
 
-            {/* Technologies / Frameworks / Languages */}
+            {/* Technologies */}
             {photos && (
-              <div className="flex flex-wrap justify-center gap-4 mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                {title === "Deployment" || title === "Pitching" ? (
-                  photos.map((photo, index) => (
-                    <img
-                      key={index}
-                      src={photo}
-                      alt={`${title.toLowerCase()} logo ${index + 1}`}
-                      className="w-20 h-20 object-contain"
-                    />
-                  ))
-                ) : (
-                  <>
-                    <h3 className="text-lg font-bold text-gray-600 group-hover:text-black">
-                      {title === "Nouvelair Delay Watch" || title === "Mobile Development"
-                        ? "Frameworks Used:"
-                        : "Technologies Used:"}
-                    </h3>
-                    {photos.map((photo, index) => (
-                      <img
-                        key={index}
-                        src={photo}
-                        alt={`technology logo ${index + 1}`}
-                        className="w-16 h-16 object-contain"
-                      />
-                    ))}
-                  </>
-                )}
+              <div className="flex flex-wrap justify-center gap-4 mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
+                {photos.map((photo, index) => (
+                  <img
+                    key={index}
+                    src={photo}
+                    alt={`tech logo ${index + 1}`}
+                    className="w-16 h-16 object-contain"
+                  />
+                ))}
               </div>
             )}
 
+            {/* Programming Languages */}
             {languages && languages.length > 0 && (
               <div className="flex flex-wrap justify-center gap-4 mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <h3 className="text-lg font-bold text-gray-600 group-hover:text-black">Programming Languages:</h3>
+                <h3 className="text-lg font-bold text-gray-600 group-hover:text-black">Languages:</h3>
                 {languages.map((logo, index) => (
                   <img
                     key={index}
