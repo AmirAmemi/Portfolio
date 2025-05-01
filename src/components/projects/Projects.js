@@ -1,6 +1,7 @@
 import React from 'react';
 import Title from '../layouts/Title';
 import ProjectsCard from './ProjectsCard';
+import { FaLinkedin, FaGlobe, FaGithub } from "react-icons/fa"; // Import LinkedIn and Globe icons
 import { 
   projectOne
 } from "../../assets/index"; // Make sure the path is correct
@@ -44,7 +45,7 @@ Designed to deliver real-time insights about delays, worst flights, and delay di
     rel="noopener noreferrer"
     className="text-blue-500 hover:text-blue-700 text-3xl" // Adjusted size
     >
-    <FaGlobe />
+    < FaGithub />
     </a>
 
       </div>
