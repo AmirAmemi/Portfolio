@@ -18,7 +18,8 @@ import {FaLinkedin,FaGithub,FaDiscord} from "react-icons/fa";
   import lambdaLogo from "../assets/images/lambda.png";
   import samLogo from "../assets/images/sam.jpg";
   import cliLogo from "../assets/images/awscli.png";
-  import powerbiLogo from "../assets/images/s3.png";
+  import powerbiLogo from "../assets/images/powerbi.jpg";
+  import s3Logo from "../assets/images/s3.png";
   
 
 
@@ -103,7 +104,8 @@ import {FaLinkedin,FaGithub,FaDiscord} from "react-icons/fa";
           boto3Logo,
           s3Logo,
           lambdaLogo,
-          samcliLogo,
+          samLogo,
+          cliLogo,
           powerbiLogo,
           discordapi
         ],
