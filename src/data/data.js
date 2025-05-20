@@ -1,6 +1,6 @@
 import {FaLinkedin,FaGithub,FaDiscord} from "react-icons/fa";
   
-  import { MdFlight } from "react-icons/md";
+  import { MdFlight,MdCloudDone } from "react-icons/md";
   
   import pythonLogo from "../assets/images/python.png";
   import SqlLogo from "../assets/images/sqlLogo.jpeg";
@@ -14,6 +14,14 @@ import {FaLinkedin,FaGithub,FaDiscord} from "react-icons/fa";
   import linekdinapi from "../assets/images/LinedInApi.png";
   import tweepi from "../assets/images/tweepi.png";
   import flight from "../assets/images/ProjectOne.png";
+  import boto3Logo from "../assets/images/boto3.png";
+  import lambdaLogo from "../assets/images/lambda.png";
+  import samLogo from "../assets/images/sam.jpg";
+  import cliLogo from "../assets/images/awscli.png";
+  import powerbiLogo from "../assets/images/s3.png";
+  
+
+
   
   // Features Data
   export const featuresData = [
@@ -65,6 +73,56 @@ import {FaLinkedin,FaGithub,FaDiscord} from "react-icons/fa";
           url: "https://discord.gg/n2vmB4Yshk"
         }
       ]
-    }
+    },
+      {
+        id: 2,
+        icon: <MdCloudDone />,
+        title: "Nouvelair Delay AWS + Power BI ☁️📊",
+        des: `Nouvelair Delay AWS is a cloud-based, serverless flight delay monitoring system that automates data collection, reporting, and visualization. Built to scale and simplify real-time aviation delay analytics, this project fetches data from the Aviationstack API, stores it in AWS S3, and powers a live Power BI dashboard — with daily automated summaries posted directly to Discord.\n\n
+
+      📡 Serverless Pipeline:\n
+      Automated daily data fetch from Aviationstack via AWS Lambda.\n
+      Structured data saved as JSON to S3 bucket.\n
+
+      🔁 Local Sync + BI:\n
+      Python script syncs data locally from S3.\n
+      Power BI reads local data and updates dynamic dashboards.\n
+
+      📊 KPI Reporting:\n
+      Dashboard tracks delay categories, airport stats, and flight counts.\n
+      Posted summary to Discord every day at 17:00 CET.\n
+
+      🧠 Smart Automation:\n
+      Fully scheduled using AWS SAM.\n
+      Visual insights auto-refreshed and shareable with teams.\n
+
+      🔗 Public Discord Channel to follow daily updates.`
+      ,
+        photos: [
+          pythonLogo,
+          boto3Logo,
+          s3Logo,
+          lambdaLogo,
+          samcliLogo,
+          powerbiLogo,
+          discordapi
+        ],
+        languages: [pythonLogo],
+        links: [
+          {
+            icon: <FaLinkedin />,
+            url: "https://www.linkedin.com/posts/amemi-amir_dataengineering-powerbi-aws-activity-7329026584059789313-iX4Q?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC3q3tsBDcsEo6yyUNSAgIGyiAMk6zlCqy0"
+          },
+          {
+            icon: <FaGithub />,
+            url: "https://github.com/AmirAmemi/nouvelair-delay-aws"
+          },
+          {
+            icon: <FaDiscord />,
+            url: "https://discord.com/invite/NjhaeBWCMJ"
+          }
+        ]
+      }
+
   ];
   
