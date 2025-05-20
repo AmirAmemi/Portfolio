@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6b451817.css",
-    "main.js": "/static/js/main.13c64657.js",
+    "main.js": "/static/js/main.437c364c.js",
     "static/media/contactImg.jpg": "/static/media/contactImg.ea841ed19375057bf14e.jpg",
     "static/media/bannerImg.png": "/static/media/bannerImg.2038c55f0031404569bd.png",
     "static/media/DEAWS.png": "/static/media/DEAWS.06a62aacd445c08db3cd.png",
@@ -27,13 +27,16 @@
     "static/media/DiscordApi.png": "/static/media/DiscordApi.147804e3e89217887ee3.png",
     "static/media/work2.jpg": "/static/media/work2.5d533b888e4d4a10c21d.jpg",
     "static/media/DEAP.png": "/static/media/DEAP.569c8fa1c4405681f76c.png",
+    "static/media/boto3.png": "/static/media/boto3.284ddd177bae2ffcd429.png",
     "static/media/AWS.png": "/static/media/AWS.1642adf24248c1101084.png",
     "static/media/DEDATACAMP.jpeg": "/static/media/DEDATACAMP.2ef936a57ed0b6783e79.jpeg",
     "static/media/SonarQube.png": "/static/media/SonarQube.85eee0cc81e3b0f52597.png",
     "static/media/excel.png": "/static/media/excel.f8cc78fe65cad12c9aa6.png",
     "static/media/work5.png": "/static/media/work5.f9ef23f3154aadb81258.png",
+    "static/media/s3.png": "/static/media/s3.229440c4a6de715efbf5.png",
     "static/media/requests.png": "/static/media/requests.4341f2260e38cfaa8e9b.png",
     "static/media/html.png": "/static/media/html.b39a12ac47cb0bc32b3f.png",
+    "static/media/awscli.png": "/static/media/awscli.977cf52a4f9eb9ff86ec.png",
     "static/media/mysql.png": "/static/media/mysql.188f859bdbabf1b62932.png",
     "static/media/NLTK.png": "/static/media/NLTK.86f8abc4aa0c0f5c7098.png",
     "static/media/ETL.png": "/static/media/ETL.91a36853df718f8226af.png",
@@ -43,16 +46,17 @@
     "static/media/numpy.png": "/static/media/numpy.988d98098ade45f04183.png",
     "static/media/work3.JPG": "/static/media/work3.757026415a5f4f916f93.JPG",
     "static/media/Brsoup.png": "/static/media/Brsoup.747715cd3c33dea77667.png",
+    "static/media/lambda.png": "/static/media/lambda.f07b7c62ca1912c1d0a0.png",
     "static/media/codeigniter.png": "/static/media/codeigniter.7dee10f9c7c79086c51d.png",
     "static/media/gitactions.png": "/static/media/gitactions.691055e8ceefd6bd9d12.png",
     "static/media/sqlLogo.jpeg": "/static/media/sqlLogo.c1b99c40967eb420d45f.jpeg",
     "static/media/json.jpg": "/static/media/json.050c47389bd70b62bf01.jpg",
     "index.html": "/index.html",
     "main.6b451817.css.map": "/static/css/main.6b451817.css.map",
-    "main.13c64657.js.map": "/static/js/main.13c64657.js.map"
+    "main.437c364c.js.map": "/static/js/main.437c364c.js.map"
   },
   "entrypoints": [
     "static/css/main.6b451817.css",
-    "static/js/main.13c64657.js"
+    "static/js/main.437c364c.js"
   ]
 }
