@@ -125,6 +125,6 @@ import {FaLinkedin,FaGithub,FaDiscord} from "react-icons/fa";
           }
         ]
       }
-
+// Amir Amemi
   ];
   
