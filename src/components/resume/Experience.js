@@ -67,6 +67,32 @@ const Experience = () => {
             }
             logo="../../components/resume/digital_research_technologie_logo.jpeg" // Replace with the correct path to the Electro Plus logo
           />
+          <ResumeCard
+            title="Statistical Modeling Intern"
+            subTitle="(February 2022 – June 2022)"
+            result="Faculty of Science of Monastir "
+            des={
+              <div>
+                <p><strong>Project:</strong> “Multivariate Statistical Modeling for Data Analysis and Insights”</p>
+                <p><strong>Context:</strong>This project focused on designing and implementing advanced statistical models to analyze complex multivariate datasets in an academic research setting. The objective was to extract meaningful insights and ensure methodological rigor to support quantitative research outcomes.</p>
+                <p><strong>Methodology:</strong> Statistical Analysis & Quantitative Research</p>
+                <p><strong>Achievements:</strong></p>
+                <ul className="list-disc ml-5">
+                  <li>Multivariate Analysis & Dimensionality Reduction: Applied Principal Component Analysis (PCA), correlation analysis, and regression modeling to uncover hidden patterns and relationships within high-dimensional datasets.</li>
+                  <li>Data Preparation & Cleaning: Performed data preprocessing, cleaning, and transformation to ensure reliability and consistency of research datasets.</li>
+                  
+                  <li>Visualization & Interpretation: Developed clear data visualizations using Python (NumPy, Pandas, Matplotlib) to communicate findings effectively to supervisors and research teams.</li>
+                  
+                  <li>Reproducibility & Academic Rigor: Collaborated with academic supervisors to validate methodologies and guarantee reproducibility of research outcomes.</li>
+                  <li>Skill Development: Strengthened expertise in predictive modeling, probability theory, and applied mathematics for quantitative research applications.</li>
+                  
+                  
+                </ul>
+                <p><strong>Technologies used:</strong> Python (NumPy, Pandas, Matplotlib), LaTeX, Statistical Modeling, Multivariate Analysis, Predictive Modeling, Probability & Statistics</p>
+              </div>
+            }
+            logo="../../components/resume/digital_research_technologie_logo.jpeg" // Replace with the correct path to the Electro Plus logo
+          />
         </div>
       </div>
     </motion.div>
