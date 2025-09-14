@@ -72,7 +72,7 @@ const Experience = () => {
             subTitle="(February 2022 – June 2022)"
             result="Faculty of Science of Monastir "
             des={
-              <div>
+              <div> 
                 <p><strong>Project:</strong> “Multivariate Statistical Modeling for Data Analysis and Insights”</p>
                 <p><strong>Context:</strong>This project focused on designing and implementing advanced statistical models to analyze complex multivariate datasets in an academic research setting. The objective was to extract meaningful insights and ensure methodological rigor to support quantitative research outcomes.</p>
                 <p><strong>Methodology:</strong> Statistical Analysis & Quantitative Research</p>
@@ -88,7 +88,7 @@ const Experience = () => {
                   
                   
                 </ul>
-                <p><strong>Technologies used:</strong> Python (NumPy, Pandas, Matplotlib), LaTeX, Statistical Modeling, Multivariate Analysis, Predictive Modeling, Probability & Statistics</p>
+                <p><strong>Technologies used:</strong> Python (NumPy, Pandas, Matplotlib), Statistical Modeling, LaTeX, Multivariate Analysis, Predictive Modeling, Probability & Statistics</p>
               </div>
             }
             logo="../../components/resume/digital_research_technologie_logo.jpeg" // Replace with the correct path to the Electro Plus logo
