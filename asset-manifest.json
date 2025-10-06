@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6b451817.css",
-    "main.js": "/static/js/main.03e8cba2.js",
+    "main.js": "/static/js/main.570aef7c.js",
     "static/media/contactImg.jpg": "/static/media/contactImg.ea841ed19375057bf14e.jpg",
     "static/media/bannerImg.png": "/static/media/bannerImg.2038c55f0031404569bd.png",
     "static/media/DEAWS.png": "/static/media/DEAWS.06a62aacd445c08db3cd.png",
@@ -20,6 +20,7 @@
     "static/media/work7.png": "/static/media/work7.29883af9a49a7649e018.png",
     "static/media/Postgresql.png": "/static/media/Postgresql.519a271ad6537a824c0c.png",
     "static/media/py3tts.png": "/static/media/py3tts.a929bc85a879d7e8d1f2.png",
+    "static/media/Drive.png": "/static/media/Drive.c8946dfb49119b71de9f.png",
     "static/media/ProjectOne.png": "/static/media/ProjectOne.6307af9d2374549b6df2.png",
     "static/media/pillow.png": "/static/media/pillow.dc473ead9a044eaceb14.png",
     "static/media/Qt.png": "/static/media/Qt.486f94a3906506b1c21d.png",
@@ -28,7 +29,9 @@
     "static/media/work2.jpg": "/static/media/work2.5d533b888e4d4a10c21d.jpg",
     "static/media/DEAP.png": "/static/media/DEAP.569c8fa1c4405681f76c.png",
     "static/media/boto3.png": "/static/media/boto3.284ddd177bae2ffcd429.png",
+    "static/media/n8n.png": "/static/media/n8n.560860b089fea7020e90.png",
     "static/media/AWS.png": "/static/media/AWS.1642adf24248c1101084.png",
+    "static/media/docs.png": "/static/media/docs.e64b45a75799eba7fd8d.png",
     "static/media/DEDATACAMP.jpeg": "/static/media/DEDATACAMP.2ef936a57ed0b6783e79.jpeg",
     "static/media/SonarQube.png": "/static/media/SonarQube.85eee0cc81e3b0f52597.png",
     "static/media/excel.png": "/static/media/excel.f8cc78fe65cad12c9aa6.png",
@@ -37,6 +40,7 @@
     "static/media/requests.png": "/static/media/requests.4341f2260e38cfaa8e9b.png",
     "static/media/html.png": "/static/media/html.b39a12ac47cb0bc32b3f.png",
     "static/media/awscli.png": "/static/media/awscli.977cf52a4f9eb9ff86ec.png",
+    "static/media/ollama.png": "/static/media/ollama.a5098b44444a2fc98ae4.png",
     "static/media/mysql.png": "/static/media/mysql.188f859bdbabf1b62932.png",
     "static/media/NLTK.png": "/static/media/NLTK.86f8abc4aa0c0f5c7098.png",
     "static/media/ETL.png": "/static/media/ETL.91a36853df718f8226af.png",
@@ -53,10 +57,10 @@
     "static/media/json.jpg": "/static/media/json.050c47389bd70b62bf01.jpg",
     "index.html": "/index.html",
     "main.6b451817.css.map": "/static/css/main.6b451817.css.map",
-    "main.03e8cba2.js.map": "/static/js/main.03e8cba2.js.map"
+    "main.570aef7c.js.map": "/static/js/main.570aef7c.js.map"
   },
   "entrypoints": [
     "static/css/main.6b451817.css",
-    "static/js/main.03e8cba2.js"
+    "static/js/main.570aef7c.js"
   ]
 }
