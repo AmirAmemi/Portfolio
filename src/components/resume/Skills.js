@@ -104,6 +104,8 @@ const Skills = () => {
         <div className="flex flex-col gap-2">
           {[
             { name: "Python", width: "0%" },
+            { name: "C", width: "0%" },
+            { name: "C#", width: "0%" },
             { name: "Java", width: "0%" },
             { name: "SQL", width: "0%" },
             { name: "Shell scripting", width: "0%" },

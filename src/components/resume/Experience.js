@@ -16,7 +16,7 @@ const Experience = () => {
         </div>
         <div className="mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Data engineer Intern"
+            title="Data & Software Engineer Intern"
             subTitle="(February 2024 - November 2024)"
             result="Smart Information Trade"
             des={
@@ -36,7 +36,7 @@ const Experience = () => {
                   <li>Client Platform Integration: Seamlessly integrated the scheduling solution into the client’s official web platform, streamlining administrative processes and improving user accessibility.</li>
                   
                 </ul>
-                <p><strong>Technologies used:</strong> Python, Pandas, Matplotlib, DEAP, Genetic Algorithm, CSP, Google OR-Tools, Excel, Data Visualization, Qt Designer, PySide6, Optimization Strategies.</p>
+                <p><strong>Technologies used:</strong> Python,SQL, C#, Pandas, Matplotlib, DEAP, Genetic Algorithm, CSP, Google OR-Tools, Excel, Data Visualization, Qt Designer, PySide6, Optimization Strategies.</p>
               </div>
             }
             logo="../../components/resume/Smart Trade Information.jpg" // Replace with the correct path to the Allence logo
