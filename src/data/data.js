@@ -20,6 +20,12 @@ import {FaLinkedin,FaGithub,FaDiscord} from "react-icons/fa";
   import cliLogo from "../assets/images/awscli.png";
   import powerbiLogo from "../assets/images/powerbi.jpg";
   import s3Logo from "../assets/images/s3.png";
+  import n8nLogo from "../assets/images/n8n.png";
+  import telegramLogo from "../assets/images/telegram.png";
+  import googleDocsLogo from "../assets/images/docs.png";
+  import googleDriveLogo from "../assets/images/Drive.png";
+  import ollamaLogo from "../assets/images/ollama.png";
+
   
 
 
@@ -27,54 +33,51 @@ import {FaLinkedin,FaGithub,FaDiscord} from "react-icons/fa";
   // Features Data
   export const featuresData = [
     {
-      id: 1,
-      icon: <MdFlight />,
-      title: "Nouvelair Delay Watch ✈️",
-      des: `Nouvelair Delay Watch is a fully automated system that fetches daily flight data for Nouvelair, cleans and analyzes delays, generates a beautiful custom report, and posts it automatically on Discord (and optionally LinkedIn or other platforms). Designed to deliver real-time insights about delays, worst flights, and delay distribution by hour and route.\n\n
-      \n
-      \n
-  📥 Data Extraction: Fetch daily real-time flight data from the AviationStack API.\n
-  🧹 Data Cleaning: Handle missing values, cancellations, and standardize delays.\n
-  💾 Flexible Storage: Choose between saving datasets as CSV files or loading into PostgreSQL databases.\n
-  📊 Data Analysis:\n
-  Calculate average hourly delays for departures and arrivals.\n
-  Identify and rank the top 10 most delayed routes.\n
-  Detect the worst delayed flight of the day.\n
-  Track status distribution (Scheduled, Landed, Cancelled, Active).\n
-  📈 Professional Visualization:\n
-  Generate clear line plots, bar charts, and summary cards.\n
-  Custom-designed black-themed graphical reports.\n
-  🤖 Automated Posting:\n
-  Discord Webhook (Daily at 10:00 UTC / 12:00 Germany Time).\n
-  (Optional) LinkedIn Integration for professional updates.\n
-  🛫 Public Discord Server to showcase daily published reports.`,
-      photos: [
-        PostgreSQL,
-        PandasLogo,
-        Matplotlib,
-        Pillow,
-        requests,
-        gitactions,
-        discordapi,
-        linekdinapi,
-        tweepi
-      ],
-      languages: [pythonLogo, SqlLogo],
-      links: [
-        {
-          icon: <FaLinkedin />,
-          url: "https://www.linkedin.com/posts/amemi-amir_dataengineering-python-etl-activity-7322892546186072064-lDqs?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC3q3tsBDcsEo6yyUNSAgIGyiAMk6zlCqy0"
-        },
-        {
-          icon: <FaGithub />,
-          url: "https://github.com/AmirAmemi/nouvelair-delay-watch"
-        },
-        {
-          icon: <FaDiscord />,
-          url: "https://discord.gg/n2vmB4Yshk"
-        }
-      ]
+  id: 3,
+  icon: <MdOutlineAutoFixHigh />,
+  title: "AI Cover Letter Generator 🤖",
+  des: `The AI Cover Letter Generator is a fully automated workflow built with n8n that creates personalized cover letters in under two minutes. 
+  Starting from a simple Telegram message containing a resume and a LinkedIn job description, the workflow leverages AI to generate, format, and deliver a professional cover letter as a PDF file — without any manual steps.\n\n
+
+  📱 User Interaction:\n
+  Start a conversation with a Telegram bot and send your resume plus job description.\n
+  🤖 AI Text Generation:\n
+  The workflow uses an AI agent to analyze both documents and craft a tailored cover letter.\n
+  🗂️ Structured JSON Output:\n
+  AI results are returned as a clean, well-structured JSON for smooth processing.\n
+  📝 Dynamic Document Creation:\n
+  Google Docs template is automatically updated with the generated content.\n
+  📑 PDF Conversion:\n
+  Google Drive instantly converts the document into a downloadable PDF.\n
+  🚀 Instant Delivery:\n
+  The finished cover letter is sent back to the user on Telegram.\n
+  🔄 Reusable Template:\n
+  The system resets the Google Docs template for the next use.\n\n
+
+  ⚙️ Powered by:\n
+  n8n • Telegram Bot API • Google Docs API • Google Drive API • OLAMMA AI\n\n
+
+  ⏱️ End-to-end automation — from input to professional PDF in under 2 minutes.`,
+  photos: [
+    n8nLogo,
+    telegramLogo,
+    googleDocsLogo,
+    googleDriveLogo,
+    ollamaLogo
+  ],
+  languages: [],
+  links: [
+    {
+      icon: <FaLinkedin />,
+      url: "https://www.linkedin.com/feed/update/urn:li:activity:7361282900094349312/"
     },
+    {
+      icon: <FaYoutube />,
+      url: "https://www.youtube.com/watch?v=gEcmiGJHj2s&t=1s"
+    }
+  ]
+}
+,
       {
         id: 2,
         icon: <MdCloudDone />,
@@ -124,7 +127,56 @@ import {FaLinkedin,FaGithub,FaDiscord} from "react-icons/fa";
             url: "https://discord.com/invite/NjhaeBWCMJ"
           }
         ]
-      }
+      },
+      {
+      id: 1,
+      icon: <MdFlight />,
+      title: "Nouvelair Delay Watch ✈️",
+      des: `Nouvelair Delay Watch is a fully automated system that fetches daily flight data for Nouvelair, cleans and analyzes delays, generates a beautiful custom report, and posts it automatically on Discord (and optionally LinkedIn or other platforms). Designed to deliver real-time insights about delays, worst flights, and delay distribution by hour and route.\n\n
+      \n
+      \n
+  📥 Data Extraction: Fetch daily real-time flight data from the AviationStack API.\n
+  🧹 Data Cleaning: Handle missing values, cancellations, and standardize delays.\n
+  💾 Flexible Storage: Choose between saving datasets as CSV files or loading into PostgreSQL databases.\n
+  📊 Data Analysis:\n
+  Calculate average hourly delays for departures and arrivals.\n
+  Identify and rank the top 10 most delayed routes.\n
+  Detect the worst delayed flight of the day.\n
+  Track status distribution (Scheduled, Landed, Cancelled, Active).\n
+  📈 Professional Visualization:\n
+  Generate clear line plots, bar charts, and summary cards.\n
+  Custom-designed black-themed graphical reports.\n
+  🤖 Automated Posting:\n
+  Discord Webhook (Daily at 10:00 UTC / 12:00 Germany Time).\n
+  (Optional) LinkedIn Integration for professional updates.\n
+  🛫 Public Discord Server to showcase daily published reports.`,
+      photos: [
+        PostgreSQL,
+        PandasLogo,
+        Matplotlib,
+        Pillow,
+        requests,
+        gitactions,
+        discordapi,
+        linekdinapi,
+        tweepi
+      ],
+      languages: [pythonLogo, SqlLogo],
+      links: [
+        {
+          icon: <FaLinkedin />,
+          url: "https://www.linkedin.com/posts/amemi-amir_dataengineering-python-etl-activity-7322892546186072064-lDqs?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC3q3tsBDcsEo6yyUNSAgIGyiAMk6zlCqy0"
+        },
+        {
+          icon: <FaGithub />,
+          url: "https://github.com/AmirAmemi/nouvelair-delay-watch"
+        },
+        {
+          icon: <FaDiscord />,
+          url: "https://discord.gg/n2vmB4Yshk"
+        }
+      ]
+    }
 // Amir Amemi
   ];
   
