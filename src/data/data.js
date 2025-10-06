@@ -1,6 +1,6 @@
-import {FaLinkedin,FaGithub,FaDiscord} from "react-icons/fa";
+import {FaLinkedin,FaGithub,FaDiscord,FaYoutube} from "react-icons/fa";
   
-  import { MdFlight,MdCloudDone } from "react-icons/md";
+  import { MdFlight,MdCloudDone,MdOutlineAutoFixHigh } from "react-icons/md";
   
   import pythonLogo from "../assets/images/python.png";
   import SqlLogo from "../assets/images/sqlLogo.jpeg";

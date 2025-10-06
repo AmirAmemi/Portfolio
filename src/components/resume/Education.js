@@ -17,7 +17,7 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Exchange Semester in Computer Science"
+            title="Exchange Student in Computer Science"
             subTitle="Hochschule Schmalkalden - University of Applied Sciences, Germany"
             result="2024 - 2025"
             des="Participated in an international exchange program focusing on software development, algorithms, and computer systems. This experience enhanced my programming skills and exposed me to diverse learning environments and collaborative tech project."
