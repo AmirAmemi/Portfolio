@@ -26,7 +26,15 @@ import {
   codeigniterLogo, 
   mysqlLogo, 
 
-  PyttLogo
+
+  CSharpLogo,
+  DotNetLogo,
+ 
+  JsonLogo,
+  VSCodeLogo,
+  PowerBILogo,
+  ETL
+
   
 } from "../../assets";
 import Title from '../layouts/Title';
@@ -158,6 +166,66 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
+
+          {/* Slide: Banking Data Warehouse & Reporting System */}
+          <div className="flex justify-center">
+            <div className="flex justify-center items-center w-full md:w-[60%] lg:w-[50%] mx-auto">
+              <div className="h-auto bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col items-start justify-center">
+                <img src={workBankDW} alt="Banking Data Warehouse Project" className="w-full rounded-t-lg" />
+                <div className="text-left mt-4">
+                  <h3 className="text-2xl font-bold text-center">
+                    Banking Data Warehouse & Reporting System
+                  </h3>
+                  <p className="text-base tracking-wide text-gray-500 mt-2">
+                    Developed an end-to-end ETL pipeline to integrate, clean, and transform banking transaction data. 
+                    Designed a Power BI dashboard for real-time KPI tracking and reporting, enhancing data-driven decisions.
+                  </p>
+
+                  {/* Technologies Used */}
+                  <div className="mt-4">
+                    <h4 className="text-xl font-semibold text-center mb-2">Technologies Used:</h4>
+                    <div className="bg-white p-4 rounded-lg flex gap-6 justify-center items-center flex-wrap">
+                      <img src={PythonLogo} alt="Python Logo" className="w-12 h-12" />
+                      <img src={PostgreSQL} alt="PostgreSQL Logo" className="w-12 h-12" />
+                      <img src={PowerBILogo} alt="Power BI Logo" className="w-12 h-12" />
+                      <img src={ETL} alt="ETL Logo" className="w-12 h-12" />
+                      <img src={AWSLogo} alt="AWS Logo" className="w-12 h-12" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Slide: Customer Account Management System */}
+          <div className="flex justify-center">
+            <div className="flex justify-center items-center w-full md:w-[60%] lg:w-[50%] mx-auto">
+              <div className="h-auto bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col items-start justify-center">
+                <img src={workAccountSys} alt="Customer Account Management Project" className="w-full rounded-t-lg" />
+                <div className="text-left mt-4">
+                  <h3 className="text-2xl font-bold text-center">
+                    Customer Account Management System (.NET + SQL)
+                  </h3>
+                  <p className="text-base tracking-wide text-gray-500 mt-2">
+                    Built a C# desktop application for managing customer accounts and transactions with real-time SQL data synchronization,
+                    ensuring high data integrity and performance.
+                  </p>
+
+                  {/* Technologies Used */}
+                  <div className="mt-4">
+                    <h4 className="text-xl font-semibold text-center mb-2">Technologies Used:</h4>
+                    <div className="bg-white p-4 rounded-lg flex gap-6 justify-center items-center flex-wrap">
+                      <img src={CSharpLogo} alt="C# Logo" className="w-12 h-12" />
+                      <img src={DotNetLogo} alt=".NET Logo" className="w-12 h-12" />
+                      <img src={JsonLogo} alt="JSON Logo" className="w-12 h-12" />
+                      <img src={VSCodeLogo} alt="VSCode Logo" className="w-12 h-12" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
 
           {/* Slide 2: Data Analytics and Predictive Modeling for Instagram Influencer Marketing */}
           <div className="flex justify-center">

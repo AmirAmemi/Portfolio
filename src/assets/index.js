@@ -52,11 +52,21 @@ import SeabornLogo from "./images/seaborn.png";
 import PyttLogo from "./images/py3tts.png";
 import PostgreSQL from "./images/Postgresql.png";
 import ETL from "./images/ETL.png";
-import projectOne from "./images/ProjectOne.png"
-import SqlLogo from "./images/sqlLogo.jpeg"
+import projectOne from "./images/ProjectOne.png";
+import SqlLogo from "./images/sqlLogo.jpeg";
+
+import CSharpLogo from "./images/c#.jpg";
+import DotNetLogo from "./images/dotnet.png";
+import VSCodeLogo from "./images/vs code.png";
+import PowerBILogo from "./images/powerbi.jpg";
+
 
 
 export {
+  PowerBILogo,
+  VSCodeLogo,
+  DotNetLogo,
+  CSharpLogo,
   SqlLogo,
   projectOne,
   DEDATACAMP1,
