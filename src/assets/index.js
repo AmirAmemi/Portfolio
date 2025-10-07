@@ -60,9 +60,24 @@ import DotNetLogo from "./images/dotnet.png";
 import VSCodeLogo from "./images/vs code.png";
 import PowerBILogo from "./images/powerbi.jpg";
 
+import n8nLogo from "../assets/images/n8n.png";
+import telegramLogo from "../assets/images/telegram.png";
+import googleDocsLogo from "../assets/images/docs.png";
+import googleDriveLogo from "../assets/images/Drive.png";
+import ollamaLogo from "../assets/images/ollama.png"; 
+import workCoverLetterAI from "../assets/images/CLIA.jpg";
+import workBankDW from "../assets/images/bank.jpg";
+import workBankDW from "../assets/images/bank.jpg";
 
 
 export {
+  workBankDW,
+  workCoverLetterAI,
+  n8nLogo, 
+  telegramLogo, 
+  googleDocsLogo, 
+  googleDriveLogo, 
+  ollamaLogo,
   PowerBILogo,
   VSCodeLogo,
   DotNetLogo,

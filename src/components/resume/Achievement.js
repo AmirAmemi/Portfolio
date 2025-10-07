@@ -25,15 +25,19 @@ import {
   jsLogo, 
   codeigniterLogo, 
   mysqlLogo, 
+  PyttLogo,
 
 
   CSharpLogo,
   DotNetLogo,
  
-  JsonLogo,
   VSCodeLogo,
   PowerBILogo,
-  ETL
+  n8nLogo, 
+  telegramLogo, 
+  googleDocsLogo, 
+  googleDriveLogo, 
+  ollamaLogo,
 
   
 } from "../../assets";
@@ -44,6 +48,9 @@ import { work2 } from '../../assets';
 import { work5 } from '../../assets';
 import { work6 } from '../../assets';
 import { work7 } from '../../assets';
+import {workCoverLetterAI} from '../../assets';
+import {workAccountSys} from '../../assets';
+import {workBankDW} from '../../assets';
 // SampleNextArrow component
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -160,6 +167,35 @@ const Testimonial = () => {
                       <img src={MatplotLogo} alt="MatPlotLib Logo" className="w-12 h-12" />
                       <img src={QtLogo} alt="QT Logo" className="w-12 h-12" />
                       <img src={ExcelLogo} alt="Excel Logo" className="w-12 h-12" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Slide: Automated AI Cover Letter Generator */}
+          <div className="flex justify-center">
+            <div className="flex justify-center items-center w-full md:w-[60%] lg:w-[50%] mx-auto">
+              <div className="h-auto bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col items-start justify-center">
+                <img src={workCoverLetterAI} alt="Automated AI Cover Letter Generator" className="w-full rounded-t-lg" />
+                <div className="text-left mt-4">
+                  <h3 className="text-2xl font-bold text-center">
+                    Automated AI Cover Letter Generator with n8n, Telegram & Google Docs
+                  </h3>
+                  <p className="text-base tracking-wide text-gray-500 mt-2">
+                    Fully automates cover letter creation using AI, n8n workflows, Telegram, and Google Docs integration.
+                  </p>
+
+                  {/* Technologies Used */}
+                  <div className="mt-4">
+                    <h4 className="text-xl font-semibold text-center mb-2">Technologies Used:</h4>
+                    <div className="bg-white p-4 rounded-lg flex gap-6 justify-center items-center flex-wrap">
+                      <img src={n8nLogo} alt="n8n Logo" className="w-12 h-12" />
+                      <img src={telegramLogo} alt="Telegram Logo" className="w-12 h-12" />
+                      <img src={ollamaLogo} alt="OpenAI Logo" className="w-12 h-12" />
+                      <img src={googleDocsLogo} alt="Google Docs Logo" className="w-12 h-12" />
+                      <img src={googleDriveLogo} alt="Google Drive Logo" className="w-12 h-12" />
+                      <img src={JsonLogo} alt="JSON Logo" className="w-12 h-12" />
                     </div>
                   </div>
                 </div>
