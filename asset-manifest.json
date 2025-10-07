@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6b451817.css",
-    "main.js": "/static/js/main.cc2c5a1d.js",
+    "main.js": "/static/js/main.b480b6c4.js",
     "static/media/contactImg.jpg": "/static/media/contactImg.ea841ed19375057bf14e.jpg",
     "static/media/bannerImg.png": "/static/media/bannerImg.2038c55f0031404569bd.png",
     "static/media/DEAWS.png": "/static/media/DEAWS.06a62aacd445c08db3cd.png",
@@ -25,6 +25,7 @@
     "static/media/pillow.png": "/static/media/pillow.dc473ead9a044eaceb14.png",
     "static/media/Qt.png": "/static/media/Qt.486f94a3906506b1c21d.png",
     "static/media/matplotlib.png": "/static/media/matplotlib.71fb8a7d166ff36e4059.png",
+    "static/media/c\u0000#.jpg": "/static/media/c#.a25bf503bca838c5a4cd.jpg",
     "static/media/DiscordApi.png": "/static/media/DiscordApi.147804e3e89217887ee3.png",
     "static/media/work2.jpg": "/static/media/work2.5d533b888e4d4a10c21d.jpg",
     "static/media/DEAP.png": "/static/media/DEAP.569c8fa1c4405681f76c.png",
@@ -52,15 +53,18 @@
     "static/media/Brsoup.png": "/static/media/Brsoup.747715cd3c33dea77667.png",
     "static/media/lambda.png": "/static/media/lambda.f07b7c62ca1912c1d0a0.png",
     "static/media/codeigniter.png": "/static/media/codeigniter.7dee10f9c7c79086c51d.png",
+    "static/media/CLIA.jpg": "/static/media/CLIA.63d30b9deb2e45493241.jpg",
+    "static/media/account-management.png": "/static/media/account-management.75c48620a81741cdf25f.png",
+    "static/media/dotnet.png": "/static/media/dotnet.efe27eb17c1c28e06cd5.png",
     "static/media/gitactions.png": "/static/media/gitactions.691055e8ceefd6bd9d12.png",
     "static/media/sqlLogo.jpeg": "/static/media/sqlLogo.c1b99c40967eb420d45f.jpeg",
     "static/media/json.jpg": "/static/media/json.050c47389bd70b62bf01.jpg",
     "index.html": "/index.html",
     "main.6b451817.css.map": "/static/css/main.6b451817.css.map",
-    "main.cc2c5a1d.js.map": "/static/js/main.cc2c5a1d.js.map"
+    "main.b480b6c4.js.map": "/static/js/main.b480b6c4.js.map"
   },
   "entrypoints": [
     "static/css/main.6b451817.css",
-    "static/js/main.cc2c5a1d.js"
+    "static/js/main.b480b6c4.js"
   ]
 }
