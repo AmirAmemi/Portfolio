@@ -67,10 +67,11 @@ import googleDriveLogo from "../assets/images/Drive.png";
 import ollamaLogo from "../assets/images/ollama.png"; 
 import workCoverLetterAI from "../assets/images/CLIA.jpg";
 import workBankDW from "../assets/images/bank.jpg";
-import workBankDW from "../assets/images/bank.jpg";
+import workAccountSys from "../assets/images/account-management.png";
 
 
 export {
+  workAccountSys,
   workBankDW,
   workCoverLetterAI,
   n8nLogo, 
